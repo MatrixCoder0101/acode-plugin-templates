@@ -4,17 +4,21 @@
   "main": "src/main.ts",
   "type": "module",
   "scripts": {
-    "build": "node .vscode/build.ts"
+    "build": "node .vscode/build.ts",
+    "publish": "node .vscode/publish.ts"
   },
   "keywords": [],
   "author": "{{authorName}}",
   "license": "ISC",
-  "description": "",
+  "description": "{{description}}",
   "devDependencies": {
     "child_process": "latest",
     "esbuild": "latest",
     "esbuild-plugin-alias": "latest",
-    "jszip": "latest"
+    "jszip": "latest",
+    "form-data": "latest",
+    "inquirer": "latest",
+    "axios": "latest"
   },
   "dependencies": {}
 }
